@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
     var closeBtn = document.querySelector('.close-btn');
     var saveContactBtn = document.getElementById('saveContactBtn');
 
+    // Show the popup immediately
+    popup.classList.remove('hidden');
+
     closeBtn.addEventListener('click', function () {
         popup.classList.add('hidden');
     });
